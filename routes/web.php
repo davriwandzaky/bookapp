@@ -18,4 +18,4 @@ $router->get('/', function () use ($router) {
     
 });
 $router->get('books', 'BooksController@index');
-$router->get('/books/{id}', 'booksController@show');
+$router->get('/books/{id}', 'BooksController@show');
